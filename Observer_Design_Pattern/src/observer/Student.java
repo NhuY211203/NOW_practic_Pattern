@@ -13,6 +13,6 @@ public class Student implements Observer {
 
     @Override
     public void update(String message) {
-        System.out.println("Student " + name + " in class " + className + " received message: " + message);
+        System.out.println("Student: " + name + " in class " + className + " received message: " + message);
     }
 }
